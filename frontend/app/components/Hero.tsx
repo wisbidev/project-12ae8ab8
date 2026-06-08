@@ -14,10 +14,11 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-background to-surface">
       {/* Radial blue glow behind headline */}
-      <div 
+      <div
         className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] pointer-events-none"
         style={{
-          background: 'radial-gradient(circle, rgba(59, 130, 246, 0.3) 0%, rgba(59, 130, 246, 0.1) 40%, transparent 70%)',
+          background:
+            'radial-gradient(circle, rgba(59, 130, 246, 0.3) 0%, rgba(59, 130, 246, 0.1) 40%, transparent 70%)',
         }}
         aria-hidden="true"
       />
@@ -37,7 +38,7 @@ export default function Hero() {
 
           {/* Subheadline */}
           <p className="text-lg md:text-xl text-muted max-w-2xl mx-auto mb-10">
-            Nền tảng AI tự động build phần mềm qua Telegram. 
+            Nền tảng AI tự động build phần mềm qua Telegram.
             Mô tả ý tưởng, AI lo phần còn lại.
           </p>
 
@@ -47,7 +48,7 @@ export default function Hero() {
               href="https://t.me/aiteam_bot"
               target="_blank"
               rel="noopener noreferrer"
-              className="group w-full sm:w-auto px-8 py-4 bg-primary text-text font-semibold rounded-lg 
+              className="group w-full sm:w-auto px-8 py-4 bg-primary text-text font-semibold rounded-lg
                          transition-all duration-300 hover:scale-105 hover:brightness-110
                          shadow-[0_0_20px_rgba(59,130,246,0.5)] hover:shadow-[0_0_30px_rgba(59,130,246,0.7)]"
             >
